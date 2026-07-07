@@ -70,19 +70,19 @@ All experimental development is contained within the **`code/`** directory. It i
 
 ## 📈 Key Results
 
-> ### 🏆 Best Models by Task
-> * **Anxiety:** **GPT-OSS-20B** (**Macro F1 = 0.900**), substantially outperforming the best BERT encoder (RoBERTa-large-BNE, **0.680**).
-> * **Depression:** **Gemini 3.1 Pro** (**Macro F1 = 0.842**), tied with Gemini 3 Flash.
-> * **Eating Disorders (ED):** **GPT-5.2** (**Macro F1 = 0.979**), achieving the highest performance among all evaluated models.
-> * **Multiclass:** **Gemini 3 Flash** (**Macro F1 = 0.849**), narrowly outperforming Gemini 3.1 Pro and RoBERTa-large-BNE.
+### 🏆 Best Models by Task
+* **Anxiety:** **GPT-OSS-20B** (**Macro F1 = 0.900**), substantially outperforming the best BERT encoder (RoBERTa-large-BNE, **0.680**).
+* **Depression:** **Gemini 3.1 Pro** (**Macro F1 = 0.842**), tied with Gemini 3 Flash.
+* **Eating Disorders (ED):** **GPT-5.2** (**Macro F1 = 0.979**), achieving the highest performance among all evaluated models.
+* **Multiclass:** **Gemini 3 Flash** (**Macro F1 = 0.849**), narrowly outperforming Gemini 3.1 Pro and RoBERTa-large-BNE.
 
-> ### 💡 Key Findings
-> * **LLMs achieved the highest predictive performance** across all classification tasks, although the performance gap over the best BERT encoder was generally small except for anxiety detection.
-> * **RoBERTa-large-BNE remained highly competitive**, matching or outperforming several proprietary frontier LLMs in the multiclass task.
-> * **Eating disorder detection was consistently the easiest task**, with all top-performing models achieving Macro F1-scores above 0.94.
-> * **Prediction stability was high across all evaluated LLMs**, with TARa@5 values consistently above **0.85** despite their non-deterministic inference.
-> * **Most differences between the strongest models were not statistically significant**, highlighting the importance of complementing performance metrics with statistical testing.
-> * **Cost-performance analysis showed that RoBERTa-large-BNE and Gemini 3 Flash offer the most favorable trade-offs** between predictive performance and computational cost.
+### 💡 Key Findings
+* **LLMs achieved the highest predictive performance** across all classification tasks, although the performance gap over the best BERT encoder was generally small except for anxiety detection.
+* **RoBERTa-large-BNE remained highly competitive**, matching or outperforming several proprietary frontier LLMs in the multiclass task.
+* **Eating disorder detection was consistently the easiest task**, with all top-performing models achieving Macro F1-scores above 0.94.
+* **Prediction stability was high across all evaluated LLMs**, with TARa@5 values consistently above **0.85** despite their non-deterministic inference.
+* **Most differences between the strongest models were not statistically significant**, highlighting the importance of complementing performance metrics with statistical testing.
+* **Cost-performance analysis showed that RoBERTa-large-BNE and Gemini 3 Flash offer the most favorable trade-offs** between predictive performance and computational cost.
 
 ---
 
@@ -106,7 +106,7 @@ The project is designed to run primarily on **Google Colab**, taking advantage o
 *   **Hardware:** An **NVIDIA T4 GPU or better** is recommended for training and evaluating BERT models.
 
 ### 📦 Main Libraries
-> Most of the required libraries are already pre-installed in Google Colab. Where additional installation is required, installation cells (`!pip install`) are included at the beginning of each notebook.
+Most of the required libraries are already pre-installed in Google Colab. Where additional installation is required, installation cells (`!pip install`) are included at the beginning of each notebook.
 
 ### 🔑 Model APIs (LLMs)
 To replicate the inference phase with large-scale models, you need to configure the API keys from the following providers:
@@ -120,6 +120,8 @@ To replicate the inference phase with large-scale models, you need to configure 
   * *Conceptualization, Methodology, Software, Investigation, Data curation, Formal analysis, Validation, Visualization, Writing – original draft, Writing – review & editing.*
 * **Adrián Domínguez-Díaz**
   * *Conceptualization, Methodology, Supervision, Validation, Writing – review & editing.*
+* **Luis de-Marcos**
+  * *Conceptualization, Methodology, Supervision, Validation.*
 
 ---
 
