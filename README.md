@@ -12,6 +12,8 @@
 This repository contains the research and technical development for the paper:  
 **"Detection of Anxiety, Depression, and Eating Disorders Using Transformer-Based Language Models: A Comparative Study from BERT Encoders to Frontier LLMs"**.
 
+> 📄 The preprint of the paper is available [here](paper/paper.pdf).
+
 ---
 
 ## 🎯 Project Overview
